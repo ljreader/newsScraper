@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 exports.articleScraper = () => {
     return new Promise((resolve, reject) => {
 
-        let url = "https://www.mlssoccer.com/news"
+        let url = "http://lifehacker.com/"
 
         request(url, (err, res, body) => {
             if (err) {
